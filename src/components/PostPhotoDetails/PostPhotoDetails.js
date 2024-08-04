@@ -7,6 +7,7 @@ import { StyledPhotoContainer } from "./StyledPhotoDetails";
 
 export const PostPhotoDetails = () => {
   const photos = useSelector((state) => state.photos.photos);
+
   const { id } = useParams();
   const SinglePhoto = photos.find((photo) => photo.id === id);
   return (

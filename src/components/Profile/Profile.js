@@ -11,10 +11,7 @@ import {
 import avatar from "../../assets/images/avatar.png";
 import { Toggle } from "../ToggleCategory/Toggle";
 
-
-
-export const Profile = ({option, handleSetOption}) => {
-
+export const Profile = ({ option, handleSetOption }) => {
   return (
     <StyledProfileСontainer>
       <StyledImageContainer>
